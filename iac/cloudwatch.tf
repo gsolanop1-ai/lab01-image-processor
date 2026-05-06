@@ -34,3 +34,4 @@ resource "aws_cloudwatch_metric_alarm" "dlq_messages" {
   alarm_actions = []
 }
 
+
