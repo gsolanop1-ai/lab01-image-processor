@@ -48,3 +48,4 @@ variable "sqs_max_receive_count" {
   description = "Intentos máximos de recepción SQS antes de enviar a DLQ"
   default     = 3
 }
+
