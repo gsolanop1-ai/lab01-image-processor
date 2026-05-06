@@ -57,3 +57,4 @@ resource "aws_s3_bucket_notification" "images" {
 
   depends_on = [aws_sqs_queue_policy.main]
 }
+
