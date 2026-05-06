@@ -1,0 +1,9 @@
+env                            = "dev"
+suffix                         = "lab01"
+aws_region                     = "us-east-1"
+upload_lambda_memory_mb        = 256
+crop_lambda_memory_mb          = 512
+log_retention_days             = 14
+sqs_visibility_timeout_seconds = 360
+sqs_max_receive_count          = 3
+sns_alarm_email                = ""

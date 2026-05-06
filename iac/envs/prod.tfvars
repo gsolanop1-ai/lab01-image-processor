@@ -1,0 +1,9 @@
+env                            = "prod"
+suffix                         = "lab01"
+aws_region                     = "us-east-1"
+upload_lambda_memory_mb        = 512
+crop_lambda_memory_mb          = 1024
+log_retention_days             = 30
+sqs_visibility_timeout_seconds = 360
+sqs_max_receive_count          = 3
+sns_alarm_email                = ""
