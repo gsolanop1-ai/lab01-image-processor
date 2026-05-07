@@ -6,4 +6,3 @@ crop_lambda_memory_mb          = 1024
 log_retention_days             = 30
 sqs_visibility_timeout_seconds = 360
 sqs_max_receive_count          = 3
-sns_alarm_email                = ""
